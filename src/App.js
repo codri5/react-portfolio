@@ -1,7 +1,12 @@
+import React from 'react';
+import NavigationBar from './components/NavigationBar';
+
 function App() {
-    return(<div>
-        <h1>React Portfolio</h1>
-    </div>);
+    return (
+        <>
+        <NavigationBar />
+        </>
+  );
 }
 
 export default App;
