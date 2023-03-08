@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './About.css';
+import { Link } from 'react-router-dom';
 
 function About() {
     return (
@@ -21,14 +22,14 @@ function About() {
                     since the 1500s, when an unknown printer took a galley of 
                     type and scrambled it to make a type specimen book.
                   </p>
-                  <button className='primaryBtn' type="button">Learn More</button>
+                  <Link to="/skills" className="btn-primary primaryBtn">Learn More</Link>
                 </Col>
               </Row>
             </Container>
           </Container>
         </section>
       </>
-      )
+    );
 }
 
 export default About;

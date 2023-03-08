@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Type from './Type';
 import './Home.css'
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -10,10 +11,11 @@ function Home() {
       <Container className='home' id='home'>
         <Container className='home-content'>
           <Row>
+
             <Col className='home-header text-center'>
               <h1 className='name-heading'>Codrina <span id='span'>Pal</span></h1>
               <Type />
-              <button className='primaryBtn' type="button">Get in Touch</button>
+              <Link to="/contact" className="btn-primary primaryBtn">Get in Touch</Link>
             </Col>
           </Row>
         </Container>

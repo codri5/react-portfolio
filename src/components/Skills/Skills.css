@@ -1,0 +1,23 @@
+.CircularProgressbar {
+    height: 30vh;
+    width: 25vh;
+    padding: 1rem;
+}
+
+.skills-subheading {
+    color: #3a263e;
+    text-align: center;
+}
+
+.skills-header {
+    font-weight: bold;
+    color: #3a263e;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .CircularProgressbar {
+        height: 24vh;
+        width: 24vh;
+    }
+}
