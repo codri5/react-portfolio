@@ -1,22 +1,9 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col, Card, Button } from 'react-bootstrap';
+import Cards from './Cards';
 
-function Portfolio() {
-    return (
-        <>
-        <section>
-          <Container className='portfolio' id='portfolio'>
-            <Container className='portfolio-content'>
-              <Row>
-                <Col className='portfolio-header text-center'>
-                  <h1 className='portfolio-heading'>Portfolio</h1>
-                </Col>
-              </Row>
-            </Container>
-          </Container>
-        </section>
-      </>
-      )
+function Projects() {
+    return ()
 }
 
-export default Portfolio;
+export default Projects;
