@@ -1,14 +1,12 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import Type from './Type';
 
 function Home() {
   return (
     <>
     <section>
-      <Container className='home'>
+      <Container className='home' id='home'>
         <Container className='home-content'>
           <Row>
             <Col className='home-header text-center'>
