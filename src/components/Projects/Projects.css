@@ -1,0 +1,18 @@
+.project-card {
+    margin-bottom: 10px; 
+    background-color: ;
+}
+
+.projectBtn {
+    margin: 5px;
+    margin-left: 1.5rem;
+    align-content: center;
+    background-color: #3a263e !important;
+    border: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .project-card {
+        width: 50vh;
+    }
+}

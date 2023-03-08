@@ -8,9 +8,11 @@ function Cards(props) {
                 <Card.Img variant='top' src={props.image} alt='card-image' />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
-                    <Card.Text>{props.content}</Card.Text>
-                    <Button variant='primary' href={props.github} target='_blank'>
+                    <Button className='projectBtn' variant='primary' href={props.github} target='_blank'>
                         GitHub
+                    </Button>
+                    <Button className='projectBtn' variant='primary' href={props.website} target='_blank'>
+                        Visit Website
                     </Button>
                 </Card.Body>
             </Card>
