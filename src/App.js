@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from './components/NavigationBar';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './components/Home/Home'
 
 function App() {

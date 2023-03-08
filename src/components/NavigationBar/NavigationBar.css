@@ -1,0 +1,34 @@
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 15px;
+    margin-left: 0.5rem;
+    margin: 1.5rem;
+    font-weight: bold;
+  }
+  
+.nav-link:hover {
+    color: #3a263e;
+}
+  
+.navbar-nav {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}  
+  
+@media only screen and (max-width: 600px) {
+    .nav-link {
+      margin-left: 0;
+      margin: 0;
+    }
+  
+    .navbar-nav {
+      position: absolute;
+      margin: 1rem;
+      padding-left: 0.5rem;
+    }
+}

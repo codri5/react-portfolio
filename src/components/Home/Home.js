@@ -12,7 +12,7 @@ function Home() {
         <Container className='home-content'>
           <Row>
             <Col className='home-header text-center'>
-              <h1 className='name-heading'>Codrina Pal</h1>
+              <h1 className='name-heading'>Codrina <span id='span'>Pal</span></h1>
               <Type />
               <button className='homeBtn' type="button">Get in Touch</button>
             </Col>
