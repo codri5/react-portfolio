@@ -1,0 +1,45 @@
+.home-content {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.primaryBtn {
+    background-color: white;
+    border: none;
+    color: #3a263e;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.name-heading {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+}
+  
+  #span {
+    color: #3a263e;
+}
+  
+@media only screen and (max-width: px) {
+
+    .home-content {
+      height: 80vh;
+    }
+
+}

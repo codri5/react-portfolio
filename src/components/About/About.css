@@ -1,0 +1,47 @@
+.about-heading {
+    color: #3a263e;
+    font-weight: bold;
+}
+
+.about-subheading {
+    color: white;
+    font-style: italic;
+}
+
+#about {
+    padding: 30px;
+}
+
+.description {
+    text-align: justify;
+    text-justify: inter-word;  
+}
+
+.profile {
+    border-radius: 25px;
+    margin: 15px;
+    height: 35vh;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .about-content {
+        display: flex;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #about {
+        margin-top: 2.5rem;
+        width: 800px;
+    }
+
+    .profile {
+        width: 45vh;
+        height: 45vh;
+    }
+}
