@@ -4,6 +4,9 @@ import './About.css';
 import { Link } from 'react-router-dom';
 
 function About() {
+
+  const profileImg = 'https://picsum.photos/200';
+
     return (
         <>
         <section>
@@ -11,7 +14,7 @@ function About() {
             <Container className='about-content'>
               <Row>
                 <Col>
-                  <img src='https://picsum.photos/200' alt='profile' className='profile' />
+                  <img src={profileImg} alt='profile' className='profile' />
                 </Col>
                 <Col className='about-header text-center'>
                   <h3 className='about-heading'>Codrina Pal</h3>

@@ -29,7 +29,7 @@ function Skills() {
                             textColor: '#3a263e'                          
                          })}
                         />
-                        <h6>HTML</h6>
+                        <p>HTML</p>
                     </Col>
                     <Col>
                         <CircularProgressbar value={css} text={`${css}%`} 
@@ -38,7 +38,7 @@ function Skills() {
                             textColor: '#3a263e'
                           })}
                         />
-                        <h6>CSS</h6>
+                        <p>CSS</p>
                     </Col>
                     <Col>
                         <CircularProgressbar value={bootstrap} text={`${bootstrap}%`} 
@@ -47,7 +47,7 @@ function Skills() {
                             textColor: '#3a263e',
                           })}
                         />
-                        <h6>Bootstrap</h6>
+                        <p>Bootstrap</p>
                     </Col>
                 </Row>
                 <Row className='skills-subheading'>
@@ -58,7 +58,7 @@ function Skills() {
                             textColor: '#3a263e'
                           })}
                         />
-                        <h6>JavaScript</h6>
+                        <p>JavaScript</p>
                     </Col>
                     <Col>
                         <CircularProgressbar value={php} text={`${php}%`} 
@@ -67,7 +67,7 @@ function Skills() {
                             textColor: '#3a263e',
                           })}
                         />
-                        <h6>PHP</h6>
+                        <p>PHP</p>
                     </Col>
                     <Col>
                         <CircularProgressbar value={react} text={`${react}%`} 
@@ -76,7 +76,7 @@ function Skills() {
                             textColor: '#3a263e'
                           })}
                         />
-                        <h6>ReactJS</h6>
+                        <p>React</p>
                     </Col>
                 </Row>
             </Container>

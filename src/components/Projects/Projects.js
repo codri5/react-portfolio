@@ -23,7 +23,7 @@ function Projects() {
           <Row className='proj-content'>
             <Col>
               <Cards
-                image={readmeGenerator} 
+                image={readmeGenerator}
                 title='README Generator'
                 github='https://github.com/codri5/readme-generator'
               />
