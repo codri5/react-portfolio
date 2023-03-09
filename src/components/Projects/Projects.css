@@ -1,5 +1,11 @@
 .project-card {
     margin-bottom: 10px; 
+    box-shadow: 3px 3px 3px #b582b0;
+    transition: 0.5s all ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
 }
 
 .projectBtn {
@@ -29,6 +35,7 @@
     font-weight: bold !important;
     font-size: 12pt !important;
     color: #3a263e;
+    text-align: center;
 }
 
 @media only screen and (max-width: 480px) {

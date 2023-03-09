@@ -9,13 +9,12 @@ import workScheduler from '../../assets/card-images/work-day-scheduler.png';
 import jsQuiz from '../../assets/card-images/javascript-quiz.png';
 import passGenerator from '../../assets/card-images/password-generator.png';
 
-
 function Projects() {
     return (
     <>
     <section>
       <Container className='projects' id='projects'>
-        <Container className='projects-content text-center'>
+        <Container className='projects-content'>
           <Row>
             <h4 className='projects-header text-left'>Projects</h4>
             <hr className='hr'></hr>
