@@ -17,6 +17,10 @@ function Projects() {
       <Container className='projects' id='projects'>
         <Container className='projects-content text-center'>
           <Row>
+            <h4 className='projects-header text-left'>Projects</h4>
+            <hr className='hr'></hr>
+          </Row>
+          <Row className='proj-content'>
             <Col>
               <Cards
                 image={readmeGenerator} 
@@ -41,7 +45,7 @@ function Projects() {
               />
             </Col>
           </Row>
-          <Row>
+          <Row className='proj-content'>
             <Col>
               <Cards
                 image={workScheduler}

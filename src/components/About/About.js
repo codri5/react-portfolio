@@ -16,7 +16,7 @@ function About() {
                 <Col className='about-header text-center'>
                   <h3 className='about-heading'>Codrina Pal</h3>
                   <h6 className='about-subheading'>Web Developer</h6>
-                  <hr></hr>
+                  <hr className='hr'></hr>
                   <p className='description'>
                     Lorem Ipsum has been the industry's standard dummy text ever 
                     since the 1500s, when an unknown printer took a galley of 

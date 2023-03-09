@@ -18,7 +18,8 @@ function Skills() {
           <Container className='skills' id='skills'>
             <Container className='skills-content'>
               <Row>
-                <h4 className='skills-header text-center'>Skills</h4>
+                <h4 className='skills-header text-left'>Skills</h4>
+                <hr className='hr'></hr>
               </Row>
                 <Row className='skills-subheading'>
                     <Col>

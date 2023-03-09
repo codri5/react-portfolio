@@ -1,11 +1,12 @@
 .CircularProgressbar {
     height: 30vh;
     width: 25vh;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: -0.5rem;
 }
 
 .skills-subheading {
-    color: #3a263e;
+    color: white;
     text-align: center;
 }
 
@@ -13,6 +14,14 @@
     font-weight: bold;
     color: #3a263e;
     margin-bottom: 1.5rem;
+}
+
+#skills {
+    width: 120vh;
+}
+
+.hr {
+    color: white;
 }
 
 @media only screen and (max-width: 480px) {
