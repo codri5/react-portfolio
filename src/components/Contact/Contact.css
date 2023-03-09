@@ -1,0 +1,37 @@
+.contact-heading {
+    color: white;
+    font-weight: bold;
+}
+
+.contactBtn {
+    margin: 5px;
+    margin-left: 1.5rem;
+    align-content: center;
+    background-color: #8b5297 !important;
+    border: none !important;
+}
+
+#contact-content {
+    width: 50vh;
+}
+
+.contBtn {
+    margin-left: -1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-content {
+        display: flex;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #contact {
+        margin-top: 2.5rem;
+        width: 800px;
+    }
+}
