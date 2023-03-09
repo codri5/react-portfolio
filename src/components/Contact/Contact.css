@@ -9,14 +9,16 @@
     align-content: center;
     background-color: #8b5297 !important;
     border: none !important;
+    width: 47vh;
+}
+
+.contact-form {
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 #contact-content {
     width: 50vh;
-}
-
-.contBtn {
-    margin-left: -1.5rem;
 }
 
 @media only screen and (max-width: 480px) {
