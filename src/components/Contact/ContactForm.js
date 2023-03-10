@@ -1,29 +1,26 @@
 import React from 'react';
-import { Container, Form, Button } from 'react-bootstrap';
+import { MDBInput, MDBValidation, MDBValidationItem, MDBTextArea } from 'mdb-react-ui-kit';
 
 function ContactForm() {
-    return (
-        <>
-        <section>
-          <Container className='contact-form' id='contact-form'>
-            <Form>
-              <Form.Group className="mb-3" controlId="formBasicName">
-                <Form.Label></Form.Label>
-                <Form.Control type="name" placeholder="Name" />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label></Form.Label>
-                <Form.Control type="email" placeholder="Email" />
-              </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicMessage">
-                <Form.Label></Form.Label>
-                <Form.Control type="text" placeholder="Message" />
-              </Form.Group>
-              <Button className='contactBtn' variant="primary" type="submit">Submit</Button>
-            </Form>
-          </Container>
-        </section>
-        </>
+  return (
+    <>
+    <section>
+      <div className='contact-form' id='contact-form'>
+        <MDBValidation noValidate id='form' >
+          <MDBValidationItem invalid feedback='Please enter your name.'>
+            <MDBInput placeholder='Name' required />
+          </MDBValidationItem>
+          <MDBValidationItem invalid feedback='Please enter your email.'>
+            <MDBInput type='email' placeholder='Email' required />
+          </MDBValidationItem>
+          <MDBValidationItem invalid feedback='Please enter a message.' >
+            <MDBTextArea placeholder='Message' required />
+          </MDBValidationItem>
+          <button type='submit' className='submitBtn'>Submit</button>
+        </MDBValidation>
+      </div>
+    </section>
+    </>
   );
 }
 

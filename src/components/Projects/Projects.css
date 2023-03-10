@@ -1,11 +1,12 @@
 .project-card {
     margin-bottom: 10px; 
-    box-shadow: 3px 3px 3px #b582b0;
+    box-shadow: 1px 3px 3px 1px #b582b0;
     transition: 0.5s all ease-in-out;
 }
 
 .project-card:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 .projectBtn {
