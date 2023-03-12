@@ -1,61 +1,27 @@
 .contact-heading {
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 
 .contactBtn {
-    margin: 5px;
-    margin-left: 1.5rem;
-    align-content: center;
+    margin-bottom: 0.5rem;
     background-color: #8b5297 !important;
     border: none !important;
-    width: 47vh;
 }
 
-.submitBtn {
-    background-color: #8b5297;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-.contact-form {
+.contact-content {
+    width: 45vh !important;
     margin-top: 4rem;
-    margin-left: 2rem;
 }
 
-#contact-content {
-    width: 50vh;
-}
-
-.form-control {
-    margin: 1rem;
+.icon {
+    zoom: 1.4;
+    margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 480px) {
     .contact-content {
-        display: flex;
-        height: 70vh;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem;
-    }
-
-    .contact-form {
-        width: 40vh;
-        margin-left: 13px;
-    }
-
-    .contactBtn {
-        width: 40vh;
-        margin-left: 40px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    #contact {
-        margin-top: 2.5rem;
-        width: 800px;
+        margin-top: 8.5rem;
     }
 }
