@@ -13,7 +13,7 @@ function About() {
             <Container className='about-content'>
               <Row>
                 <Col>
-                  <img src={profileImg} alt='profile-image' className='profile' />
+                  <img src={profileImg} alt='profile' className='profile' />
                 </Col>
                 <Col className='about-header text-center'>
                   <h3 className='about-heading'>Codrina Pal</h3>

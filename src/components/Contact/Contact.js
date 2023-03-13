@@ -23,10 +23,10 @@ function Contact() {
             <Button className='contactBtn' href='#'>
               <AiOutlinePhone className='icon' />(+44) 7542 424 360 
             </Button>
-            <Button className='contactBtn' href='mailto:codrinapal@gmail.com' target='_blank'>
+            <Button className='contactBtn' href='mailto:codrinapal@gmail.com' target='_blank' rel='noopener noreferrer'>
               <AiOutlineMail className='icon' /> codrinapal@gmail.com
             </Button>
-            <Button className='contactBtn' href='https://github.com/codri5' target='_blank'>
+            <Button className='contactBtn' href='https://github.com/codri5' target='_blank' rel='noopener noreferrer'>
               <AiFillGithub className='icon' /> GitHub
             </Button>
           </Row>
