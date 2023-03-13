@@ -1,12 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import './About.css';
-import { Link } from 'react-router-dom';
+
 
 function About() {
-
   const profileImg = 'https://picsum.photos/200';
-
     return (
         <>
         <section>
@@ -14,7 +13,7 @@ function About() {
             <Container className='about-content'>
               <Row>
                 <Col>
-                  <img src={profileImg} alt='profile' className='profile' />
+                  <img src={profileImg} alt='profile-image' className='profile' />
                 </Col>
                 <Col className='about-header text-center'>
                   <h3 className='about-heading'>Codrina Pal</h3>
@@ -32,7 +31,7 @@ function About() {
             </Container>
           </Container>
         </section>
-      </>
+        </>
     );
 }
 

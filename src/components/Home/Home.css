@@ -1,9 +1,15 @@
 .home-content {
-    display: flex;
     height: 70vh;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.name-heading {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
 }
 
 .logo {
@@ -12,40 +18,29 @@
     width: 2rem;
 }
 
+.type {
+    font-style: italic;
+}
+
 .primaryBtn {
-    background-color: #85586F;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
+    text-align: center;
+    background-color: #85586F;
+    color: white;
+    text-decoration: none;
+    border: none;
     border-radius: 12px;
+    padding: 10px 20px;
     font-weight: bold;
     margin: 20px;
     margin-top: 25px;
 }
 
-.primaryBtn:hover {
-    color: #3a263e;
+.primaryBtn:hover, #span {
+    color: #3A263E;
 }
 
-.name-heading {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 15px;
-}
-  
-  #span {
-    color: #3a263e;
-}
-
-.type {
-    font-style: italic;
-}
-  
 @media only screen and (max-width: 480px) {
-
     .home-content {
       height: 80vh;
     }

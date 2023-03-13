@@ -1,3 +1,8 @@
+#projects {
+    width: 165vh;
+    margin-bottom: 2.5rem;
+}
+
 .project-card {
     margin-bottom: 10px; 
     box-shadow: 1px 3px 3px 1px #b67898;
@@ -20,17 +25,6 @@
 
 .projectBtn:hover {
     background-color: #b67898 !important;
-}
-
-.projects-header {
-    font-weight: bold;
-    color: #3a263e;
-    margin-bottom: 0.5rem;
-}
-
-#projects {
-    width: 165vh;
-    margin-bottom: 2.5rem;
 }
 
 .proj-content {
@@ -56,17 +50,17 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #projects {
+        margin-top: 10vh;
+    }
+
     .project-card {
         width: 20vh;
         height: 20vh;
         margin-bottom: 15px;
     }
 
-    #projects {
-        margin-top: 10vh;
-    }
-    
     .projectBtn {
         margin: 5px;
         margin-left: 1.5rem;

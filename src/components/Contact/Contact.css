@@ -1,3 +1,7 @@
+#contact {
+    height: 59vh;
+}
+
 .contact-heading {
     color: white;
     font-weight: bold;
@@ -8,6 +12,7 @@
     margin-bottom: 0.5rem;
     background-color: #85586F !important;
     border: none !important;
+    zoom: 0.8;
 }
 
 .contactBtn:hover {
@@ -17,10 +22,6 @@
 .icon {
     zoom: 1.4;
     margin-right: 0.5rem;
-}
-
-#contact {
-    height: 59vh;
 }
 
 .contact-content {
@@ -34,7 +35,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     #contact {
         margin-top: 15vh;
     }

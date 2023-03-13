@@ -4,6 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 function Cards(props) {
     return (
         <>
+        <section>
             <Card className='project-card'>
                 <Card.Img variant='top' src={props.image} alt='card-image' />
                 <Card.Body>
@@ -21,6 +22,7 @@ function Cards(props) {
                     )}
                 </Card.Body>
             </Card>
+        </section>
         </>
     );
 }

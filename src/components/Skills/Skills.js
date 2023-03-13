@@ -21,68 +21,74 @@ function Skills() {
 
   return (
     <>
-      <section>
-        <Container className='skills' id='skills'>
-          <Container className='skills-content'>
-            <Row>
-              <h4 className='skills-header text-left'>Skills</h4>
-              <hr className='hr'></hr>
+    <section>
+      <Container className='skills' id='skills'>
+        <Container className='skills-content'>
+          <Row>
+            <h4 className='skills-header text-left'>Skills</h4>
+            <hr className='hr'></hr>
+          </Row>
+          <Row className='skills-subheading'>
+            <Col>
+            <CircularProgressbar value={html} text={`${html}%`}
+              styles={buildStyles({
+              pathColor: '#85586F',
+              textColor: '#3A263E'                          
+              })} 
+              />
+              <p>HTML</p>
+            </Col>
+            <Col>
+              <CircularProgressbar value={css} text={`${css}%`} 
+                styles={buildStyles({
+                pathColor: '#85586F',
+                textColor: '#3A263E'
+              })} 
+              />
+              <p>CSS</p>
+            </Col>
+            <Col>
+              <CircularProgressbar value={bs} text={`${bs}%`} 
+                styles={buildStyles({
+                pathColor: '#85586F',
+                textColor: '#3A263E',
+              })} 
+              />
+              <p>Bootstrap</p>
+            </Col>
             </Row>
             <Row className='skills-subheading'>
               <Col>
-              <CircularProgressbar value={html} text={`${html}%`}
+              <CircularProgressbar value={js} text={`${js}%`} 
                 styles={buildStyles({
-                pathColor: `#85586F`,
-                textColor: '#3a263e'                          
-                })} />
-                <p>HTML</p>
+                pathColor: '#85586F',
+                textColor: '#3A263E'
+              })} 
+              />
+              <p>JavaScript</p>
               </Col>
               <Col>
-                <CircularProgressbar value={css} text={`${css}%`} 
-                  styles={buildStyles({
-                  pathColor: `#85586F`,
-                  textColor: '#3a263e'
-                })} />
-                <p>CSS</p>
+              <CircularProgressbar value={php} text={`${php}%`} 
+                styles={buildStyles({
+                pathColor: '#85586F',
+                textColor: '#3A263E',
+              })} 
+              />
+              <p>PHP</p>
               </Col>
               <Col>
-                <CircularProgressbar value={bs} text={`${bs}%`} 
-                  styles={buildStyles({
-                  pathColor: `#85586F`,
-                  textColor: '#3a263e',
-                })} />
-                <p>Bootstrap</p>
+              <CircularProgressbar value={react} text={`${react}%`} 
+                styles={buildStyles({
+                pathColor: '#85586F',
+                textColor: '#3A263E'
+              })} 
+              />
+              <p>React</p>
               </Col>
-              </Row>
-              <Row className='skills-subheading'>
-                <Col>
-                <CircularProgressbar value={js} text={`${js}%`} 
-                  styles={buildStyles({
-                  pathColor: `#85586F`,
-                  textColor: '#3a263e'
-                })} />
-                <p>JavaScript</p>
-                </Col>
-                <Col>
-                <CircularProgressbar value={php} text={`${php}%`} 
-                  styles={buildStyles({
-                  pathColor: `#85586F`,
-                  textColor: '#3a263e',
-                })} />
-                <p>PHP</p>
-                </Col>
-                <Col>
-                <CircularProgressbar value={react} text={`${react}%`} 
-                  styles={buildStyles({
-                  pathColor: `#85586F`,
-                  textColor: '#3a263e'
-              })} />
-                <p>React</p>
-                </Col>
-                </Row>
-            </Container>
+            </Row>
           </Container>
-      </section>
+        </Container>
+    </section>
     </>     
   );
 }

@@ -1,5 +1,6 @@
 #about {
     margin-bottom: 3rem;
+    padding: 30px;
 }
 
 .about-heading {
@@ -12,8 +13,8 @@
     font-style: italic;
 }
 
-#about {
-    padding: 30px;
+p {
+    color: #3E262E;
 }
 
 .description {
@@ -22,17 +23,19 @@
 }
 
 .profile {
-    border-radius: 25px;
-    margin: 15px;
     height: 35vh;
+    margin: 15px;
     margin-left: 2rem;
-}
-
-p {
-    color: #3E262E;
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 480px) {
+
+    #about {
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
     .about-content {
         display: flex;
         height: 70vh;
@@ -40,15 +43,22 @@ p {
         justify-content: center;
         margin-top: 2rem;
     }
-
-    #about {
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
 }
 
-@media only screen and (min-width: 1096px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    #about {
+        margin-top: 20vh;
+        width: 800px;
+    }
+
+    .profile {
+        width: 25vh;
+        height: 25vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
     #about {
         margin-top: 2.5rem;
         width: 800px;
@@ -57,18 +67,5 @@ p {
     .profile {
         width: 45vh;
         height: 45vh;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-
-    .profile {
-        width: 25vh;
-        height: 25vh;
-    }
-
-    #about {
-        margin-top: 20vh;
-        width: 800px;
     }
 }

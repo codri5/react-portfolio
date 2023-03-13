@@ -17,10 +17,10 @@ function Contact() {
             <hr></hr>
           </Row>
           <Row className='contact-body'>
-            <Button className='contactBtn' href='#' target='_blank'>
+            <Button className='contactBtn' href='#'>
               <SlLocationPin className='icon' /> Liverpool
             </Button>
-            <Button className='contactBtn' href='#' target='_blank'>
+            <Button className='contactBtn' href='#'>
               <AiOutlinePhone className='icon' />(+44) 7542 424 360 
             </Button>
             <Button className='contactBtn' href='mailto:codrinapal@gmail.com' target='_blank'>
