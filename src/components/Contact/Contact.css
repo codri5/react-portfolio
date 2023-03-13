@@ -6,13 +6,12 @@
 
 .contactBtn {
     margin-bottom: 0.5rem;
-    background-color: #8b5297 !important;
+    background-color: #85586F !important;
     border: none !important;
 }
 
-.contact-content {
-    width: 45vh !important;
-    margin-top: 4rem;
+.contactBtn:hover {
+    background-color: #a36d89 !important;
 }
 
 .icon {
@@ -22,6 +21,11 @@
 
 #contact {
     height: 59vh;
+}
+
+.contact-content {
+    width: 45vh !important;
+    margin-top: 4rem;
 }
 
 @media only screen and (max-width: 480px) {

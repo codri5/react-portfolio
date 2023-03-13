@@ -32,7 +32,7 @@ function Skills() {
               <Col>
               <CircularProgressbar value={html} text={`${html}%`}
                 styles={buildStyles({
-                pathColor: `#8b5297`,
+                pathColor: `#85586F`,
                 textColor: '#3a263e'                          
                 })} />
                 <p>HTML</p>
@@ -40,7 +40,7 @@ function Skills() {
               <Col>
                 <CircularProgressbar value={css} text={`${css}%`} 
                   styles={buildStyles({
-                  pathColor: `#8b5297`,
+                  pathColor: `#85586F`,
                   textColor: '#3a263e'
                 })} />
                 <p>CSS</p>
@@ -48,7 +48,7 @@ function Skills() {
               <Col>
                 <CircularProgressbar value={bs} text={`${bs}%`} 
                   styles={buildStyles({
-                  pathColor: `#8b5297`,
+                  pathColor: `#85586F`,
                   textColor: '#3a263e',
                 })} />
                 <p>Bootstrap</p>
@@ -58,7 +58,7 @@ function Skills() {
                 <Col>
                 <CircularProgressbar value={js} text={`${js}%`} 
                   styles={buildStyles({
-                  pathColor: `#8b5297`,
+                  pathColor: `#85586F`,
                   textColor: '#3a263e'
                 })} />
                 <p>JavaScript</p>
@@ -66,7 +66,7 @@ function Skills() {
                 <Col>
                 <CircularProgressbar value={php} text={`${php}%`} 
                   styles={buildStyles({
-                  pathColor: `#8b5297`,
+                  pathColor: `#85586F`,
                   textColor: '#3a263e',
                 })} />
                 <p>PHP</p>
@@ -74,7 +74,7 @@ function Skills() {
                 <Col>
                 <CircularProgressbar value={react} text={`${react}%`} 
                   styles={buildStyles({
-                  pathColor: `#8b5297`,
+                  pathColor: `#85586F`,
                   textColor: '#3a263e'
               })} />
                 <p>React</p>

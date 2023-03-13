@@ -1,8 +1,9 @@
 .copy {
     font-size: 12px;
-    color: white;
+    color: #3a263e;
     margin-bottom: 5px;
     margin-top: -10px;
+    font-style: italic;
 }
 
 .footer-icon {
@@ -14,7 +15,7 @@
 }
 
 .footer-icon:hover {
-    color: white;
+    color: #a36d89;
 }
 
 .footer {

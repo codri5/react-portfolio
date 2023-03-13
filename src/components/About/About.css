@@ -3,7 +3,7 @@
 }
 
 .about-heading {
-    color: #3a263e;
+    color: #3E262E;
     font-weight: bold;
 }
 
@@ -26,6 +26,10 @@
     margin: 15px;
     height: 35vh;
     margin-left: 2rem;
+}
+
+p {
+    color: #3E262E;
 }
 
 @media only screen and (max-width: 480px) {
