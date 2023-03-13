@@ -11,10 +11,11 @@
 
 .projectBtn {
     margin: 5px;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     align-content: center;
     background-color: #85586F !important;
     border: none !important;
+    zoom: 0.9;
 }
 
 .projectBtn:hover {
@@ -52,5 +53,30 @@
 
     #projects {
         width: 50vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .project-card {
+        width: 20vh;
+        height: 20vh;
+        margin-bottom: 15px;
+    }
+
+    #projects {
+        margin-top: 10vh;
+    }
+    
+    .projectBtn {
+        margin: 5px;
+        margin-left: 1.5rem;
+        align-content: center;
+        background-color: #85586F !important;
+        border: none !important;
+        zoom: 0.6;
+    }
+
+    .card-title {
+        zoom: 0.6;
     }
 }

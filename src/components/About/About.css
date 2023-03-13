@@ -48,7 +48,7 @@ p {
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1096px) {
     #about {
         margin-top: 2.5rem;
         width: 800px;
@@ -57,5 +57,18 @@ p {
     .profile {
         width: 45vh;
         height: 45vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .profile {
+        width: 25vh;
+        height: 25vh;
+    }
+
+    #about {
+        margin-top: 20vh;
+        width: 800px;
     }
 }
