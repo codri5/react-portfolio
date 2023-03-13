@@ -25,6 +25,7 @@
 
 #projects {
     width: 165vh;
+    margin-bottom: 2.5rem;
 }
 
 .proj-content {
@@ -41,6 +42,11 @@
 
 @media only screen and (max-width: 480px) {
     .project-card {
+        width: 45vh;
+        margin-bottom: 15px;
+    }
+
+    #projects {
         width: 50vh;
     }
 }

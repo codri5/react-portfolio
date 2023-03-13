@@ -1,3 +1,7 @@
+#about {
+    margin-bottom: 3rem;
+}
+
 .about-heading {
     color: #3a263e;
     font-weight: bold;
@@ -32,6 +36,12 @@
         justify-content: center;
         margin-top: 2rem;
     }
+
+    #about {
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {

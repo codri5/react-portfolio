@@ -20,6 +20,7 @@
 
 #skills {
     width: 120vh;
+    height: 80vh;
 }
 
 .hr {
@@ -30,5 +31,11 @@
     .CircularProgressbar {
         height: 24vh;
         width: 24vh;
+        margin: 0.5rem;
+    }
+
+    #skills {
+        width: 40vh;
+        height: 200vh;
     }
 }

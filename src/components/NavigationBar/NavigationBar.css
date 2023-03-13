@@ -9,6 +9,7 @@
     margin-left: 0.5rem;
     margin: 1.5rem;
     font-weight: bold;
+   
   }
   
 .nav-link:hover {
@@ -18,6 +19,7 @@
 .navbar-nav {
     margin-right: 2rem;
     margin-top: 0.5rem;
+    z-index: 1;
 }  
   
 @media only screen and (max-width: 480px) {
