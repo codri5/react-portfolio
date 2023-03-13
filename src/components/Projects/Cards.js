@@ -11,9 +11,14 @@ function Cards(props) {
                     <Button className='projectBtn' variant='primary' href={props.github} target='_blank'>
                         GitHub
                     </Button>
-                    <Button className='projectBtn' variant='primary' href={props.website} target='_blank'>
-                        Visit Website
-                    </Button>
+                    {props.website && (
+                         <Button 
+                         className='projectBtn' 
+                         variant='primary' 
+                         href={props.website} target='_blank'>
+                         Visit Website
+                        </Button>
+                    )}
                 </Card.Body>
             </Card>
         </>
