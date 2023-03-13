@@ -3,6 +3,12 @@
     margin-bottom: 2.5rem;
 }
 
+.projects-header {
+    font-weight: bold;
+    color: #3a263e;
+    margin-bottom: 1.5rem;
+}
+
 .project-card {
     margin-bottom: 10px; 
     box-shadow: 1px 3px 3px 1px #b67898;
@@ -43,6 +49,7 @@
     .project-card {
         width: 45vh;
         margin-bottom: 15px;
+        transform: scale(1);
     }
 
     #projects {
