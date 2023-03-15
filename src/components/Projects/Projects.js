@@ -6,7 +6,7 @@ import poolPosition from '../../assets/card-images/pool-position.png';
 import newsSearch from '../../assets/card-images/news-search.png';
 import workScheduler from '../../assets/card-images/work-day-scheduler.png';
 import jsQuiz from '../../assets/card-images/javascript-quiz.png';
-import passGenerator from '../../assets/card-images/password-generator.png';
+import contactForm from '../../assets/card-images/contact-form.png';
 import './Projects.css';
 
 function Projects() {
@@ -22,6 +22,13 @@ function Projects() {
             <Row className='proj-content'>
               <Col>
                 <Cards
+                  image={contactForm}
+                  title='Contact Form'
+                  github='https://github.com/codri5/contact-form'
+                />
+              </Col>
+              <Col>
+                <Cards
                   image={readmeGenerator}
                   title='README Generator'
                   github='https://github.com/codri5/readme-generator'
@@ -35,6 +42,8 @@ function Projects() {
                   website='https://codri5.github.io/pool-position'
                 />
               </Col>
+            </Row>
+            <Row className='proj-content'>
               <Col>
                 <Cards
                   image={newsSearch}
@@ -43,8 +52,6 @@ function Projects() {
                   website='https://codri5.github.io/news-search'
                 />
               </Col>
-            </Row>
-            <Row className='proj-content'>
               <Col>
                 <Cards
                   image={workScheduler}
@@ -59,14 +66,6 @@ function Projects() {
                   title='JavaScript Quiz'
                   github='https://github.com/codri5/javascript-quiz'
                   website='https://codri5.github.io/javascript-quiz'
-                />
-              </Col>
-              <Col>
-                <Cards
-                  image={passGenerator}
-                  title='Password Generator'
-                  github='https://github.com/codri5/password-generator'
-                  website='https://codri5.github.io/password-generator'
                 />
               </Col>
             </Row>
